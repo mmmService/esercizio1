@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // importazione classe Scanner per input tastiera
 
 public class Main {
     public static void main(String[] args){
@@ -14,10 +14,10 @@ Scrivere un codice che permetta di computare questa cifra tramite un’istruzion
 multi-ramo.
 
          */
-        Scanner inputOperatore = new Scanner(System.in); // importazione classe Scanner per input tastiera
+        Scanner inputOperatore = new Scanner(System.in); 
         System.out.println("Inserisci il valore dell asegno :");//messaggio interativo
-        float valAsgn;// prilievo dati dalla tastiera e definire tipo variabile
-        valAsgn = inputOperatore.nextFloat();
+        float valAsgn; //definizione variabile
+        valAsgn = inputOperatore.nextFloat(); // prilievo dati dalla tastiera e definire tipo variabile
 
         float costoServizio; //definizione variabile
 
